@@ -9,13 +9,5 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  {
-    "catppuccin/nvim",
-    as = "catppuccin",
-    config = function()
-      require("catppuccin").setup {
-        flavour = "frappe"
-      }
-    end,
-  }
+
 }

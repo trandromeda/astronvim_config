@@ -6,8 +6,9 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.tailwindcss" },
-  { import = "astrocommunity.colorscheme.catppuccin", enabled = false },
+  { import = "astrocommunity.colorscheme.catppuccin",    enabled = false },
   { import = "astrocommunity.colorscheme.rose-pine" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   {
     "rose-pine",
     opts = {
